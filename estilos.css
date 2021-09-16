@@ -1,0 +1,59 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+span{
+    color:lightgray;
+    font-size: 30px;
+    }
+
+#nav_drawer {
+    height: 100%;
+    width: 218px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+    }
+  
+#nav_drawer  a {
+    width: 160px;
+    padding: 10px 20px;
+    color: lightgray;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    }
+
+#nav_drawer button{
+    margin: 10px 0px;
+    background-color: black;
+    }
+  
+#nav_drawer button:hover {
+    background-color: green;
+    color: aliceblue;
+    }
+
+#nav_drawer a:hover {
+    background-color: green;
+    color: aliceblue;
+    width: 218px;
+    }
+
+#buttonreg_nav{
+    color: grey;
+    border: cadetblue solid 3px;
+    }
+header {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.main {
+    margin-left: 250px; 
+    }
+
