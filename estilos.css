@@ -13,7 +13,7 @@ span{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: red;
+    background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
     }
@@ -34,7 +34,7 @@ span{
     }
   
 #nav_drawer button:hover {
-    background-color: red;
+    background-color: green;
     color: aliceblue;
     }
 
