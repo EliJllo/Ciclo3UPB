@@ -1,59 +1,70 @@
 body {
-    font-family: "Lato", sans-serif;
-  }
-  
-span{
-    color:lightgray;
-    font-size: 30px;
+    font-family: Ubuntu;
     }
 
+/* div del menú */  
 #nav_drawer {
     height: 100%;
-    width: 218px;
+    width: 320px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background: linear-gradient(87.61deg, #BDE0FE, rgba(189, 224, 254, 0.1));
     overflow-x: hidden;
     padding-top: 20px;
     }
-  
-#nav_drawer  a {
-    width: 160px;
+
+/* Características comunes a todos los botones */ 
+button{
+    margin: auto;
+    width: 240px;
     padding: 10px 20px;
-    color: lightgray;
-    font-size: 25px;
+    font-size: 25px;    
+    text-decoration: underline;
+    text-align: center;
     display: block;
-    text-align: left;
-    text-decoration: none;
-    }
-
-#nav_drawer button{
-    margin: 10px 0px;
-    background-color: black;
-    }
+}
   
-#nav_drawer button:hover {
-    background-color: green;
-    color: aliceblue;
-    }
-
-#nav_drawer a:hover {
-    background-color: green;
-    color: aliceblue;
-    width: 218px;
-    }
-
+/* Botón de Registro */
 #buttonreg_nav{
-    color: grey;
-    border: cadetblue solid 3px;
+    margin-top:60px ;
+    background-color: #0077B6;
+    border: 2px solid #0077B6;
+    color: #FFFFFF;
     }
+     
+/* Efecto hover sobre botón de registro */ 
+#buttonreg_nav:hover{
+    margin-top:60px ;
+    background-color: green;
+    border: 2px solid green;
+    color: #FFFFFF;
+    }
+
+/* Otros botones del menú */
+.btn-opcional{
+    margin-top:50px ;
+    background: none;
+    border: none;
+    color: #0077B6;
+}
+
+/* Efecto hover sobre los botones opcionales del menú */ 
+.btn-opcional:hover {
+    margin-top:50px ;
+    background: green;
+    border: none;
+    color: #FFFFFF;
+    }
+
+
+
 header {
     text-align: center;
     padding: 20px;
     margin: 20px;
 }
 .main {
-    margin-left: 250px; 
+    margin-left: 320px; 
     }
 
