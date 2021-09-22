@@ -9,11 +9,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <style>
-
-        *{
-            text-align: center;
+        .more{
+            border: 1px;
+            padding-top: 1px;
+            width: 200px;
+            transition-duration: 0.4s;
+            ;
         }
-
+        .button:hover{
+            background-color: #4CAF50; /* Green */
+            color: white;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -37,19 +44,31 @@
     <content>
     <div class="main">
 
-           <div class="opciones">
-                <button type="button" style="border: 2px solid;" class="material-icons" name="sonido"> volume_off </button>
-                <button type="button" style="border: 2px solid;" class="material-icons" name="modo"> dark_mode </button>
-                <button type="button" style="border: 2px solid;" class="material-icons" name="idioma"> language </button>
-           </div><br>
+               <h2>Apariencia</h2> <br>
+               <table>
+                    <ul>
+                        <tr>
+                            <td><li>Sonido</td>
+                            <td><button id="more" type="button" class="material-icons" name="sonido">volume_off</button></li></td>
+                        </tr>
+                        <tr>
+                            <td><li>Modo de visualización</td>
+                            <td><button type="button" class="material-icons" name="modo"> dark_mode </button></li></td>
+                        </tr>
+                        <tr>
+                            <td><li>Idioma</td>
+                            <td><button type="button" class="material-icons" name="idioma"> language </button></li></td>
+                        </tr>
+                    </ul>
+               </table>
 
-            <div class="acerca_de">
-            Nuestro equipo de desarrollo está conformado por:<br><br><br>
-            ELIANA JARAMILLO ÁNGEL<br>
-            DANILO ENRIQUE ORTÍZ CAMPILLO<br>
-            DIEGO ALEJANDRO GUZMÁN MONCADA<br>
-            ELKIN ALEXIS ARIAS ZAPATA<br>
-            </div>
+            <h3> Desarrolladores</h3>
+            <ul>
+                <li>ELIANA JARAMILLO ÁNGEL<br></li>
+                <li>DANILO ENRIQUE ORTÍZ CAMPILLO<br></li>
+                <li>DIEGO ALEJANDRO GUZMÁN MONCADA<br></li>
+                <li>ELKIN ALEXIS ARIAS ZAPATA<br></li>
+            </ul>
 
         
     </div>
