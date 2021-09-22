@@ -6,36 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configuración</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <style>
+
+        *{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
+    
+    <header>
+        <h1>Configuración</h1>
+    </header>
 
-    <div id="nav_drawer" >
-        
-        <a href="index.html"><span >&#9776; </span></a>
-        
-        <button  type="button" id ="buttonreg_nav" ><a href="registro.html">Regístrate</a></button>
-        <button  type="button" ><a href="#">Categorías</a></button>
-        <button  type="button" ><a href="#">Contáctanos</a></button>
-        <button  type="button" ><a href="aspectosgenerales.html">Configuración</a> </button>
-    </div>
-      
-    <div class="main">
-        <header>
-            <h1>Configuración</h1>
-            <input type="button" name="sonido" value="Sonido"/>
-            <input type="button" name="modo" value="Cambiar a modo nocturno/diurno"/>
-            <input type="button" name="idioma" value="Idioma"/>
-        </header>
-        <div>
-            <p align="center">
-                Nuestro equipo de desarrollo está conformado por:<br><br><br>
-                ELIANA JARAMILLO ÁNGEL (ROL)<br>
-                DANILO ENRIQUE ORTÍZ OCAMPO (ROL)<br>
-                DIEGO ALEJANDRO GUZMÁN MONCADA (ROL)<br>
-                ELKIN ALEXIS ARIAS ZAPATA (ROL)<br>
-            </p>
+    <nav>
+       <div id="nav_drawer" >
+            
+            <a href="index.html"><span >&#9776; </span></a>
+            
+            <button  type="button" id ="buttonreg_nav" ><a href="registro.html">Regístrate</a></button>
+            <button  type="button" ><a href="#">Categorías</a></button>
+            <button  type="button" ><a href="#">Contáctanos</a></button>
+            <button  type="button" ><a href="aspectosgenerales.html">Configuración</a> </button>
         </div>
+    </nav>
+
+    <content>
+    <div class="main">
+
+           <div class="opciones">
+                <button type="button" style="border: 2px solid;" class="material-icons" name="sonido"> volume_off </button>
+                <button type="button" style="border: 2px solid;" class="material-icons" name="modo"> dark_mode </button>
+                <button type="button" style="border: 2px solid;" class="material-icons" name="idioma"> language </button>
+           </div><br>
+
+            <div class="acerca_de">
+            Nuestro equipo de desarrollo está conformado por:<br><br><br>
+            ELIANA JARAMILLO ÁNGEL<br>
+            DANILO ENRIQUE ORTÍZ CAMPILLO<br>
+            DIEGO ALEJANDRO GUZMÁN MONCADA<br>
+            ELKIN ALEXIS ARIAS ZAPATA<br>
+            </div>
+
+        
     </div>
+    </content>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html> 
