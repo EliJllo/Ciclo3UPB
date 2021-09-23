@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
-    <div id="nav_drawer" > <!-- contenedor menú -->
+<div >
+    <div id="nav_drawer" > <!-- contenedor menú -->  
         <!-- boteones del menu -->
         <a href="registro.html"><button  type="button" id ="buttonreg_nav" >Regístrate</button></a>
         <a href="#"><button class = "btn-opcional" type="button" id ="categorias">Categorías</button></a>
@@ -17,17 +17,72 @@
         <a href="aspectosgenerales.html"> <button  class = "btn-opcional" type="button" id ="configuracion" > Configuración</button></a>
         <a href="index.html"> <button  class = "btn-opcional" type="button" id ="configuracion" > Inicio</button></a>
     </div><!-- fin contenedor menú -->
-      
-    <div class="main">
-        <header>
-            <h1>Registro</h1>
-        </header>
-        <div>
-            <h2>Abre tu mente!</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta asperiores est adipisci veniam exercitationem dolorem cum? Totam, minus! Quidem modi fugit magni excepturi fugiat eaque iusto blanditiis sit quis!</p>
-            <h1></h1>
+    
+    
+    <div id="ContentMain" >
+        <div class="header">
+            <h1 class="Title">registro</h1>  
+        </div>
+        <div id="formRegistro" class="">
+
+            <form id="Frm"><!--Inicio Formulario -->
+
+                <fieldset><!--Inicio Agrupamiento de campos relacionados -->
+                
+                    <legend>  Registrate  </legend>
+
+                    <div class="Content-campos"> <!--Inicio  Contenedor Campos -->
+
+                                <div class="campo">
+                                    <label  for ="Nombre"><strong> nombre completo:</strong></label>
+                                    <Input  id ="CampoNombre" class= "input-text" type="text" placeholder="Tu nombre">
+                                </div>
+
+                                <div class="campo">
+                                    <label for ="Correo" ><strong> correo electrónico: </strong></label>
+                                    <Input  id ="Correo" class= "input-text" type="email" placeholder="Tu email">
+                                </div>
+
+                                <div  class="campo">
+                                    <label  for = "Contraseña"><strong> contraseña:</strong></label>
+                                    <Input  id = "CampoContraseña" class= "input-text" type="password" placeholder="Contraseña">
+                                </div>
+
+                                <div  class="campo">
+                                    <label for = "Confirma_Contraseña" > <strong>Confirmar contraseña:</strong></label>
+                                    <Input id="CampoConfirmaContraseña" class= "input-text" type="password" placeholder="Confirma Contraseña">
+                                </div>
+
+                                <div class="campo">
+                                    <label for ="Telefono"><strong>teléfono móvil:</strong></label>
+                                    <Input  id = "CampoTelefono"  class= "input-text" type="tel" placeholder="Tu Numero telefonico">
+                                </div>
+
+                                <div class="campo">
+                                
+                                    <label for = "CampoSexoM"><strong>Sexo</strong></label>
+                                        <div class="CampoSexo">
+                                            <label>Masculino</label>
+                                            <Input id = "CampoSexoM" name="RadioBoton" type="Radio" placeholder="Masculino">
+                                            <label>Femenino</label>
+                                            <Input id = "CampoSexoF" name="RadioBoton" type="Radio" placeholder="Feminino">
+                                        </div>
+                                </div>
+                                
+                    </div>
+                        
+                                <div class="Btn_form">
+                                    <input class = "boton" type="submit" value="Registrar">
+                                </div>
+                            
+                
+                </fieldset><!--Fin Agrupamiento de campos relacionados -->
+            
+            </form><!--fin  Formulario -->
+
         </div>
     </div>
+</div>
 </body>
 
 </html> 

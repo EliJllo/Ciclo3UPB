@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Ubuntu;
+
     }
 
 /* div del menú */  
@@ -16,7 +21,7 @@ body {
 
 /* Características comunes a todos los botones */ 
 button{
-    margin: auto;
+    
     width: 240px;
     padding: 10px 20px;
     font-size: 25px;    
@@ -24,18 +29,18 @@ button{
     text-align: center;
     display: block;
 }
-  
+
 /* Botón de Registro */
 #buttonreg_nav{
-    margin-top:60px ;
+    margin-top: 50px;
     background-color: #0077B6;
     border: 2px solid #0077B6;
     color: #FFFFFF;
     }
-     
+    
 /* Efecto hover sobre botón de registro */ 
 #buttonreg_nav:hover{
-    margin-top:60px ;
+    margin-top:50px ;
     background-color: green;
     border: 2px solid green;
     color: #FFFFFF;
@@ -57,14 +62,146 @@ button{
     color: #FFFFFF;
     }
 
-
-
-header {
+#header {
     text-align: center;
-    padding: 20px;
-    margin: 20px;
+    height: 50px;
+    background: linear-gradient(359.44deg, #0077B6 -11.76%, rgba(11, 37, 69, 0) 108.66%);
+
+}
+.Encabezado{
+
+    margin-left: 318px;
+    position:center;
+    height: 50px;
 }
 .main {
     margin-left: 320px; 
+    height: 100%;
+    
     }
+
+    .Content_Form{
+
+        position: absolute;
+        margin-left: 318px;
+        height: 550px;
+        width: 1035px;;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(0deg, #BDE0FE -14.22%, rgba(189, 224, 254, 0.1) 111.35%);
+    }
+
+.Registro{
+
+        color: white;
+    }
+
+.Formulario{
+    padding-top: 100px;
+    position:center;
+    padding-right: 270px;
+}
+
+#General{
+    width: 1360px;
+    height:594px;
+    background-color:green;
+}
+
+#nav_drawer2{
+    margin-top: 0px;
+    width: 300px;
+    height: 500px;
+}
+
+#nav_drawer {
+    height: 635px;
+    width: 250px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(87.61deg, #BDE0FE, rgba(189, 224, 254, 0.1));
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+    margin-right: 100px;
+    position: absolute;
+    }
+    .btn-opcional{
+        display: block;
+    }
+    #buttonreg_nav{
+        display: block;
+    }
+
+    #ContentMain{
+        background: linear-gradient(87.61deg, #BDE0FE, rgba(189, 224, 254, 0.1));
+        float: right;
+        width: 1099px;
+        height: 655px; 
+        padding: auto;
+    }
+
+.header{
+        background: linear-gradient(359.58deg, #0077B6 -25.87%, rgba(11, 37, 69, 0) 153.32%);
+        height: 10%;
+        border-radius: 10px; 
+        
+        
+    }
+
+    #Titulo{
+        margin: block;
+    }
+
+    #formRegistro{
+        margin-top: 10%;
+        border-radius: 10px;
+        background-color: linear-gradient(0deg, #BDE0FE -14.22%, rgba(189, 224, 254, 0.1) 111.35%);
+        
+    }
+
+    .Title{
+        padding: 20px;
+        text-align: center;
+        position:center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        color:whitesmoke;
+    }
+
+    #Frm{
+
+        
+        position:center;
+        padding-right: 270px;
+        margin-left: 30%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .Btn_form{
+
+        background-color: var(--primario);
+        color: var(--blanco);
+        padding:1rem,3rem;
+        margin: 3rem;
+        font-size: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 0.5rem;
+        width:70%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+
+
 
