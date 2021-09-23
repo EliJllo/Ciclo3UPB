@@ -56,4 +56,27 @@ header {
 .main {
     margin-left: 250px;
     }
-
+#more{
+        border: 1px;
+        padding-top: 1px;
+        width: 200px;
+        transition-duration: 0.4s;
+}
+#more:hover{
+        background-color: #4CAF50; /* Green */
+        color: white;
+        cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#imagen_encabezado{
+    position: absolute;
+    width: 1160px;
+    height: 85px;
+    left: 190px;
+    top: 0px;
+    background: linear-gradient(359.58deg, #0077B6 -25.87%, rgba(11, 37, 69, 0) 153.32%);
+}
