@@ -44,6 +44,7 @@ button{
     background-color: green;
     border: 2px solid green;
     color: #FFFFFF;
+    cursor: pointer;
     }
 
 /* Otros botones del menú */
@@ -60,6 +61,7 @@ button{
     background: green;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
     }
 
 #header {
@@ -97,12 +99,6 @@ button{
         color: white;
     }
 
-.Formulario{
-    padding-top: 100px;
-    position:center;
-    padding-right: 270px;
-}
-
 #General{
     width: 1360px;
     height:594px;
@@ -135,11 +131,12 @@ button{
     }
 
     #ContentMain{
-        background: linear-gradient(87.61deg, #BDE0FE, rgba(189, 224, 254, 0.1));
+        background: whitesmoke;
         float: right;
         width: 1099px;
         height: 655px; 
         padding: auto;
+    
     }
 
 .header{
@@ -155,9 +152,16 @@ button{
     }
 
     #formRegistro{
-        margin-top: 10%;
+        margin-top:2%;
         border-radius: 10px;
-        background-color: linear-gradient(0deg, #BDE0FE -14.22%, rgba(189, 224, 254, 0.1) 111.35%);
+        background: linear-gradient(359.58deg, #0077B6 -25.87%, rgba(11, 37, 69, 0) 153.32%);
+        margin-left: 50px;
+        margin-right:50px;
+        display: flex;
+        flex-direction:column;
+        border: none;
+        
+        
         
     }
 
@@ -171,22 +175,23 @@ button{
         color:whitesmoke;
     }
 
-    #Frm{
+    .Content-campos{
 
         
         position:center;
-        padding-right: 270px;
-        margin-left: 30%;
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction:column;
+        font-size: 25px;
+        
+    
     }
 
     .Btn_form{
-
-        background-color: var(--primario);
-        color: var(--blanco);
+        
+        background-color: #ecf028;
+        color:rgb(246, 248, 250);
         padding:1rem,3rem;
         margin: 3rem;
         font-size: 2rem;
@@ -200,7 +205,34 @@ button{
         align-items: center;
         justify-content: center;
         border: none;
+        
     }
+
+    .Btn_form:hover {
+        
+        background: green;
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        }
+
+    .BTN{
+
+        margin-left: 185px;
+        
+        
+    }
+    .input-text{
+
+        width:50%;
+        font-size: .9em;
+        text-align: left;
+        border: 0px;
+        
+    }
+
+
+
 
 
 
