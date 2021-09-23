@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configuración</title>
-    <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    
     <style>
-        .more{
+        #more{
             border: 1px;
             padding-top: 1px;
             width: 200px;
             transition-duration: 0.4s;
-            ;
+            
         }
-        .button:hover{
+        #more:hover{
             background-color: #4CAF50; /* Green */
             color: white;
-            cursor: pointer;
+            cursor: focus;
         }
     </style>
 </head>
@@ -49,11 +50,11 @@
                     <ul>
                         <tr>
                             <td><li>Sonido</td>
-                            <td><button id="more" type="button" class="material-icons" name="sonido">volume_off</button></li></td>
+                            <td><button id="more" type="button" class="material-icons" name="sonido"> volume_off </button>Sonido</li></td>
                         </tr>
                         <tr>
                             <td><li>Modo de visualización</td>
-                            <td><button type="button" class="material-icons" name="modo"> dark_mode </button></li></td>
+                            <td><button type="button" class="material-icons" name="modo" > dark_mode </button></li></td>
                         </tr>
                         <tr>
                             <td><li>Idioma</td>
