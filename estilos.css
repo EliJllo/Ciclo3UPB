@@ -49,9 +49,7 @@ span{
     border: cadetblue solid 3px;
     }
 header {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+    flex: 100%;
 }
 .main {
     margin-left: 250px;
@@ -73,10 +71,5 @@ footer {
     margin: 20px;
 }
 #imagen_encabezado{
-    position: absolute;
-    width: 1160px;
-    height: 85px;
-    left: 190px;
-    top: 0px;
-    background: linear-gradient(359.58deg, #0077B6 -25.87%, rgba(11, 37, 69, 0) 153.32%);
+    background: url('https://media.kingston.com/hyperx/headers/hx-header-accessories-landing-md.jpg'), linear-gradient(359.58deg, #0077B6 -25.87%, rgba(11, 37, 69, 0) 153.32%);
 }
