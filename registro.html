@@ -26,17 +26,19 @@
         </div>
         <div id="formRegistro" class="">
 
-            <form id="Frm"><!--Inicio Formulario -->
+            <form id="Frm" action=""><!--Inicio Formulario -->
 
-                <fieldset><!--Inicio Agrupamiento de campos relacionados -->
-                
-                    <legend>  Registrate  </legend>
-
-                    <div class="Content-campos"> <!--Inicio  Contenedor Campos -->
+                          <div class="Content-campos"> <!--Inicio  Contenedor Campos -->
 
                                 <div class="campo">
+<<<<<<< HEAD
                                     <label size = "50" for ="campoNombre" ><strong> Nombre Completo:</strong></label>
                                     <Input  id ="campoNombre" class= "input-text" type="text" placeholder="Tu nombre">
+=======
+                                    <label size = "50" for ="CampoNombre" ><strong> nombre completo:</strong></label>
+                                    <Input  id ="CampoNombre" class= "input-text" type="text" placeholder="Tu nombre">
+                                    <span id="errorNombre" class="error"></span>
+>>>>>>> 7a2ea0bb63fa24cc0fd4c9ac6f00b9dbb6f64d04
                                 </div><br>
 
                                 <div class="campo">
@@ -73,18 +75,20 @@
                     </div>
                         
                                 <div class="BTN">
-                                    <input class = "Btn_form" type="submit" value="Registrar">
+                                    <input class = "Btn_form" type="submit" value="Registrar" onclick = "return validar_nombre(this.form.campoNombre.value);">
                                 </div>
                             
-                
-                </fieldset><!--Fin Agrupamiento de campos relacionados -->
-            
+                     
             </form><!--fin  Formulario -->
 
         </div>
     </div>
 </div>
 </body>
+<<<<<<< HEAD
 <script src="./javascripts/main.js"></script>
 
+=======
+<script src= "js/form4.js"></script>
+>>>>>>> 7a2ea0bb63fa24cc0fd4c9ac6f00b9dbb6f64d04
 </html> 
