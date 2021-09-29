@@ -36,6 +36,7 @@
                                 <div class="campo">
                                     <label size = "50" for ="CampoNombre" ><strong> nombre completo:</strong></label>
                                     <Input  id ="CampoNombre" class= "input-text" type="text" placeholder="Tu nombre">
+                                    <span id="errorNombre" class="error"></span>
                                 </div><br>
 
                                 <div class="campo">
@@ -72,7 +73,7 @@
                     </div>
                         
                                 <div class="BTN">
-                                    <input class = "Btn_form" type="submit" value="Registrar">
+                                    <input class = "Btn_form" type="submit" value="Registrar" onclick = "return validar_nombre(this.form.campoNombre.value);">
                                 </div>
                             
                 
@@ -84,5 +85,5 @@
     </div>
 </div>
 </body>
-
+<script src= "js/form4.js"></script>
 </html> 
