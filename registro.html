@@ -24,9 +24,9 @@
         <div class="header">
             <h1 class="Title">registro</h1>  
         </div>
-        <div id="formRegistro" class="">
+        <div id="formRegistro" class="">    
 
-            <form id="Frm" action="" ><!--Inicio Formulario -->
+            <form id="Frm" action=""  ><!--Inicio Formulario -->
                 
                     <div class="Content-campos"> <!--Inicio  Contenedor Campos -->
 
@@ -39,21 +39,28 @@
                                 <div class="campo">
                                     <label for ="CampoCorreo" ><strong> correo electrónico: </strong></label>
                                     <Input  id ="CampoCorreo" class= "input-text" type="email" placeholder="Tu email">
+                                    <span id="errorMail" class="error"></span>
+
                                 </div><br>
 
                                 <div  class="campo">
                                     <label  for = "CampoContraseña"><strong> contraseña:</strong></label>
                                     <Input  id = "CampoContraseña" class= "input-text" type="password" placeholder="Contraseña">
+                                    <span id="errorPassword" class="error"></span>
+
                                 </div><br>
 
                                 <div  class="campo">
                                     <label for = "CampoConfirmaContraseña" > <strong>Confirmar contraseña:</strong></label>
                                     <Input id="CampoConfirmaContraseña" class= "input-text" type="password" placeholder="Confirma Contraseña">
+                                    <span id="errorConfirmaPassword" class="error"></span>
                                 </div><br>
 
                                 <div class="campo">
                                     <label for ="CampoTelefono"><strong>teléfono móvil:</strong></label>
                                     <Input  id = "CampoTelefono"  class= "input-text" type="tel" placeholder="Tu Numero telefonico">
+                                    <span id="errorTel" class="error"></span>
+
                                 </div><br>
 
                                 <div class="campo">
@@ -61,7 +68,7 @@
                                     <label for = "CampoSexoM"><strong>Sexo</strong></label>
                                         <div class="CampoSexo">
                                             <label>Masculino</label>
-                                            <Input id = "CampoSexoM" name="RadioBoton" type="Radio" placeholder="Masculino">
+                                            <Input id = "CampoSexoM" name="RadioBoton" type="Radio" placeholder="Masculino" checked>
                                             <label>Femenino</label>
                                             <Input id = "CampoSexoF" name="RadioBoton" type="Radio" placeholder="Feminino">
                                         </div>
@@ -70,7 +77,7 @@
                     </div>
                         
                                 <div class="BTN">
-                                    <input class = "Btn_form" type="submit" value="Registrar" onclick = "return validar_nombre(this.form.campoNombre.value);" >
+                                    <input class = "Btn_form" type="submit" value="Registrar" onclick = "if(validar_nombre(this.form.campoNombre.value)){ return  validar_contrasenas(this.form.CampoContraseña.value,this.form.CampoConfirmaContraseña.value); }else{return false}" >
                                 </div>
                             
                            
